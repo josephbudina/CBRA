@@ -1,3 +1,9 @@
+PATH
+  remote: components/app_component
+  specs:
+    app_component (0.1.0)
+      rails (~> 5.2.6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -188,6 +194,7 @@ PLATFORMS
   x86_64-darwin-18
 
 DEPENDENCIES
+  app_component!
   bootsnap (>= 1.1.0)
   byebug
   capybara (>= 2.15)
